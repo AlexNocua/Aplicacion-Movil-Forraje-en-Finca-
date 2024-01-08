@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Franjeo de forraje en finca</string>
+    <string name="guardar">Guardar</string>
+    <string name="cerca_electrica">Cerca Electrica</string>
+    <string name="animales"># Animales:</string>
+    <string name="largo_lote">Largo Lote:</string>
+    <string name="fv_m2">FV/M2:</string>
+    <string name="franjas">Franjas</string>
+    <string name="ancho_lote">Ancho Lote:</string>
+    <string name="wanimales">WAnimales:</string>
+</resources>

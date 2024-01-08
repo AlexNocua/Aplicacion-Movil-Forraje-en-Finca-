@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="inherit"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FloVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="304dp"
+        android:clickable="true"
+        app:backgroundTint="#7CB342"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?android:attr/actionModeFindDrawable"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="220dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="Peso en kilos:"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkNo"
+        android:layout_width="61dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="60dp"
+        android:minHeight="48dp"
+        android:text="No"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkSi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="149dp"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="Si"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/WAnimales"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/FV"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="60dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/NumAnimales"
+        android:layout_width="141dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="58dp"
+        android:ems="10"
+        android:fadeScrollbars="true"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Llote"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Alote"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="61dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/BotonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="144dp"
+        android:background="#105900"
+        android:text="@string/guardar"
+        app:backgroundTint="#105900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="252dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="@string/fv_m2"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="Diseñado en:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FLinfo"
+        android:layout_width="55dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="148dp"
+        android:clickable="true"
+        app:backgroundTint="#7CB342"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_4fe67e7_671f_429d_a58c_32c2923de64b_removebg_preview"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="141dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="Conoce detalles del aplicativo"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="99dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="628dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="Ver registros guardados:"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="236dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="@string/largo_lote"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="436dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="@string/ancho_lote"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="212dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="Numero de Animales:"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="516dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal|fill_horizontal|center_vertical"
+        android:text="Cerca electrica:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="402dp"
+        android:layout_height="60dp"
+        android:text="INGENIERIA DE SISTEMAS Y ZOOTECNIA"
+        android:textAlignment="center"
+        android:textColor="#105900"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="175dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/vredimencionado"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@mipmap/redi2"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
